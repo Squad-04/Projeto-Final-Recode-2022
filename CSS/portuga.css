@@ -1,0 +1,209 @@
+#cabecalho{
+  height: 250px;
+  background-color: aqua;
+}
+
+#painel{
+  border:1px solid rgb(99, 173, 99);
+  border-radius:7px;
+  margin-top:25px;
+  padding: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.178);
+  text-align: center;
+  width:90%;
+  margin:auto;
+}
+div.container{
+  background-color: white;
+}
+main{
+  background-color: rgb(182, 216, 182);
+}
+
+#apresentacao{
+  height: 800px;
+  background-color: bisque;
+}
+#texcentro{
+  margin-top:80px;
+  
+
+}
+#rodape{
+  height:100px;
+  background-color: rgb(182, 216, 182);
+  text-align: center;
+  padding:15px;
+}
+
+/* desafio todas*/
+
+#titulo{
+  margin:20px;
+  background-color: rgb(228, 207, 169);
+  padding:15px;
+}
+
+#subtitulo{
+  text-align:left;
+  margin:30px
+
+}
+.btnpe{
+  width:130px;
+}
+
+/* animação do cabeçalho
+.a1{
+    animation-name: a1;
+    animation-duration: 4s;
+    border-radius:6px;
+    position:relative;
+    text-align: center;
+    
+    
+  }
+  @keyframes a1{
+      0%{left:1000px;top:70px}
+      40%{left:0px;top:70px}
+      100%{left:0px;top:0px}
+  
+  }
+  .a2{
+    animation-name: a2;
+    animation-duration: 4s;
+    border-radius:6px;
+    position:relative;
+    text-align: center;
+  
+  }
+  @keyframes a2{
+      0%{left:800px;top:1000px}
+      40%{left:800px;top:70px}
+      70%{left:0px;top:70px}
+      100%{left:0px;top:0px}
+      
+  }
+  .a3{
+    animation-name: a3;
+    animation-duration: 4s;
+    border-radius:6px;
+    position:relative;
+
+    
+  }
+  @keyframes a3{
+    0%{left:-500px;top:300px}
+    40%{left:250px;top:300px}
+    70%{left:250px;top:0px}
+    100%{left:0px;top:0px}
+  }
+  .a4{
+    animation-name: a4;
+    animation-duration:4s;
+    position:relative;
+    border-radius:6px;
+    
+  }
+  @keyframes a4{
+      0%{left:600px;top:-80px}
+      40%{left:600px;top:0px}
+      100%{left:0px;top:0px}
+  }
+  .a5{
+    animation-name: a5;
+    animation-duration: 4s;
+    position:relative;
+    border-radius:6px;
+    text-align: center;
+  }
+  @keyframes a5{
+      0%{left:-70px;top:-100px}
+      40%{left:-70px;top:400px}
+      100%{left:-70px;top:0px}
+      100%{left:0px;top:0px}
+  }
+  .a6{
+    animation-name: a6;
+    animation-duration: 4s;
+    position:relative;
+    border-radius:6px;
+    text-align: center;
+  }
+  @keyframes a6{
+      0%{left: -800px;top:70px}
+      40%{left:500px;top:70px}
+      70%{left:500px;top:0px}
+      100%{left:0px;top:0px}
+  }
+  .a7{
+    animation-name: a7;
+    animation-duration: 4s;
+    position:relative;
+    border-radius:6px;
+  }
+  @keyframes a7{
+      0%{left:-500px;top:0px}
+      40%{left:-500px;top:250px}
+      70%{left:0px;top:250px}
+      100%{left:0px;top:0px}
+  }
+  .a8{
+    animation-name: a8;
+    animation-duration: 4s;
+    position:relative;
+    border-radius:6px;
+  }
+  @keyframes a8{
+      0%{left:-1500px;top:0px}
+      25%{left:0px;top:25px}
+      100%{left:0px;top:0px}
+  }
+  /*Fim da animação do comentário */
+  /*
+  .pesq{
+    justify-content: right;
+  }
+  .nav{
+    width: 100%;
+    height:40px;
+  }
+  .botoes{
+    border:4px solid green;
+    width: 300px;
+    height:600px;
+  }
+  .prova{
+    border:4px solid green;
+    width: 1049px;
+    height:600px;
+  }
+
+
+#titulo{
+    height:150px;
+}
+
+
+
+#borda_frame{
+    border:1px solid darkgreen;
+    width:100%;
+    border-radius: 20px;
+    height: 800px;
+    border-style:inset;
+    border-width:6px;
+    box-shadow:15px 15px 15px 15px rgba(168, 153, 153, 0.555);
+}
+/*iframe.html*/
+/*
+.titulo{
+    text-align:center;
+    margin-top:30px;
+}
+.comentario{
+    margin-top:70px;
+    text-align:center;
+}
+
+*/
