@@ -1,0 +1,77 @@
+.d-flex {
+    color: white;
+    margin-left: 40em;
+    padding: 2px;
+}
+
+.btn {
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-fluid {
+    display: flex;
+
+}
+
+.nav-link {
+    color: white
+}
+
+.d-flex {
+    display: flex;
+    justify-content: end;
+}
+
+/* ------Fim do header--------*/
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(182, 216, 182);
+}
+
+.principal {
+    border: solid rgb(219, 209, 209);
+    border-radius: 10px;
+    margin: 20px;
+    width: 60em;
+    height: 60em;
+    background-color: white;
+
+
+}
+.titulo{
+
+    display: flex;
+    justify-content: center;
+}
+
+.biblioteca {
+    display: flex;
+    flex-direction: row;
+}
+
+.ebooks {
+    margin: 40px;
+    
+}
+
+
+.ebooks :hover {
+    transform: scale(1.4);
+    filter: brightness(.6);
+    border-radius: 13px;
+    box-shadow: 5px 4px 5px ;
+}

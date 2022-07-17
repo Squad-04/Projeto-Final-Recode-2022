@@ -1,0 +1,73 @@
+
+.msgError {
+    text-align: center;
+    color: #2c2d2e;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#principal{
+    width: 30em;
+    height: 34em;
+    border: solid rgb(219, 209, 209);
+    border-radius: 5%;
+    box-shadow: 5px 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form-check-label{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.row {
+    background-image: url(../imagens_login/fundo.jpg);
+    height: 39em;
+    width: 86.3rem;
+}
+
+.row-2{
+    border: solid blue;
+
+}
+
+#botao-login{
+    position: relative;
+    left: 20em;
+    padding: 15px;
+    
+}
+
+.cadastre-se{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    background: rgb(48,174,158);
+    opacity: 90%;
+    border-radius: 5%;
+}
+
+.help a{
+    color: rgb(255, 255, 255);
+}
+
+#cadastro {
+    padding: 20px;
+    width: 50em;
+
+}
+.clicandoAqui {
+    color: white;
+}

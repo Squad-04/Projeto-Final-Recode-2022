@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 247, 235);
+}
+
+#menucolor{
+    background-color: rgb(6, 150, 35)
+}
+
+.boxtexto{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.final{
+    text-align: center;
+}
+
+#box_form{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+@media(max-width: 700px){
+    .linha{
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+}
