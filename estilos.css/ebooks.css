@@ -1,36 +1,8 @@
-.d-flex {
-    color: white;
-    margin-left: 40em;
-    padding: 2px;
-}
-
-.btn {
-    color: white;
-}
-
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    color: white;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.container-fluid {
-    display: flex;
-
-}
-
-.nav-link {
-    color: white
-}
 
 .d-flex {
-    display: flex;
-    justify-content: end;
+    margin-left: 30em;
 }
+
 
 /* ------Fim do header--------*/
 
@@ -38,15 +10,16 @@
 
 main {
     display: flex;
-    justify-content: center;
+    
+    flex-direction: row;
     background-color: rgb(182, 216, 182);
 }
 
 .principal {
     border: solid rgb(219, 209, 209);
     border-radius: 10px;
-    margin: 20px;
-    width: 60em;
+    margin: 20px; 
+    width: 50%;
     height: 60em;
     background-color: white;
 
@@ -61,17 +34,84 @@ main {
 .biblioteca {
     display: flex;
     flex-direction: row;
+    
+    
 }
 
 .ebooks {
     margin: 40px;
+    width: 100%;
+    
     
 }
 
 
-.ebooks :hover {
+
+img:hover {
     transform: scale(1.4);
     filter: brightness(.6);
-    border-radius: 13px;
+    border-radius: 10px;
     box-shadow: 5px 4px 5px ;
 }
+
+.icon {
+    text-decoration: none;
+    height: 2em;
+    width: 20px;
+    border: none;
+    color: green;
+}
+
+.icon:hover{
+    transform: scale(1.5);
+    filter: brightness(.6);
+
+}
+
+.favoritar {
+    text-decoration: none;
+    height: 2em;
+    width: 20px;
+    border: none;
+    color: green;
+}
+
+.favoritar:hover{
+    color:red;
+    transform: scale(1.4);
+    filter: brightness(.6);
+}
+
+.menu-opcoes{
+    margin: 0% 83% ;
+    border: solid red;
+    border: solid rgb(219, 209, 209);
+    border-radius: 10px;
+    background: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 10em;
+    padding: 10px;
+}
+
+.opcao-download{
+    margin: 25% 2%;
+    border: solid red;
+    border: solid rgb(219, 209, 209);
+    border-radius: 10px;
+    background: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    height: 10em;
+    padding: 10px;
+}
+
+.modal-backdrop{
+    display: none;
+  }
+
