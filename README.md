@@ -7,4 +7,4 @@ Repositório para Compartihamento de Código do Squad 04 Projeto Final Recode Pr
 (HTML,CSS, Bootstrap)
 
 -Modelo Conceitual e Lógico do Banco de Dados
-(Para vizualização esse arquivo precisa ser baixaado)
+(Para vizualização esse arquivo precisa ser baixado)
