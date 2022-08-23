@@ -10,7 +10,6 @@
 
 main {
     display: flex;
-    
     flex-direction: row;
     background-color: rgb(182, 216, 182);
 }
@@ -52,6 +51,7 @@ img:hover {
     filter: brightness(.6);
     border-radius: 10px;
     box-shadow: 5px 4px 5px ;
+    cursor: pointer;
 }
 
 .icon {
@@ -65,6 +65,7 @@ img:hover {
 .icon:hover{
     transform: scale(1.5);
     filter: brightness(.6);
+    cursor: pointer;
 
 }
 
@@ -80,10 +81,11 @@ img:hover {
     color:red;
     transform: scale(1.4);
     filter: brightness(.6);
+    cursor: pointer;
 }
 
 .menu-opcoes{
-    margin: 0% 83% ;
+    margin: 17% 83% ;
     border: solid red;
     border: solid rgb(219, 209, 209);
     border-radius: 10px;
@@ -97,7 +99,7 @@ img:hover {
 }
 
 .opcao-download{
-    margin: 25% 2%;
+    margin: 32% 2%;
     border: solid red;
     border: solid rgb(219, 209, 209);
     border-radius: 10px;
@@ -115,3 +117,11 @@ img:hover {
     display: none;
   }
 
+/*----video -----*/
+#Video{
+    position: fixed;
+    padding-right: 6%;
+    border: solid red
+   
+    
+}

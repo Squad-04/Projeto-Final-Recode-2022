@@ -32,8 +32,11 @@
 
 .row {
     background-image: url(../imagens_login/fundo.jpg);
-    height: 39em;
-    width: 86.3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
 }
 
 .row-2{
